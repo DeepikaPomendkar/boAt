@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body style="margin: 0;padding: 0; background-color:black">
+
+    <style>
+      img{ max-width:100%;}
+
+.gallery_box li{ width:33.333333%; max-width: 100% ; display:inline-block;float:left; text-align: center; overflow: hidden;    position: relative;}
+.gallery_box{ padding:0;display: flow-root;}
+
+.gallery_box li:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.gallery_box li img{-webkit-transition: transform 0.5s ease;
+    -o-transition: transform 0.5s ease;
+    transition: transform 0.5s ease;}
+.gallery_box li:nth-child(even) {
+    height: 304px;
+}
+
+.gallery_box li:nth-child(odd) {
+    height: 438px; 
+}
+.gallery_box li:nth-child(odd) .box_data{ background:rgba(0,0,0,0.17) }
+.gallery_box li:nth-child(even) .box_data{ background:rgba(0,44,255,0.27) }
+.gallery_box .box_data{ position:absolute; top: 0; left: 0; right:0; bottom:0; color:#fff;}
+.gallery_box .box_data span{ position:absolute; top: 50%; transform: translateY(-50%); left:0 ; right:0; font-size:24px;}
+.gallery_box li:hover .box_data{ background:rgba(255,0,39,0.55)}
+</style>
+<br/>
+<br/>
+<br/>
+<ul class="gallery_box" style="background-color:black" id="six">
+    <li>
+      <a href="#0"><img src="assets/images/img8.jpg"></a>
+      
+    </li>
+      <li>
+      <a href="#0"><img src="assets/images/img2.jpg"></a>
+    
+    </li>
+      <li>
+      <a href="#0"><img src="assets/images/img4.jpg"></a>
+      
+    </li>
+    <li >
+      <a href="#0"><img src="assets/images/img7.jpg"></a>
+     
+    </li>
+        <li style="    position: relative;
+      top: -134px;">
+      <a href="#0"><img src="assets/images/img6.jpg"></a>
+     
+    </li>
+        <li >
+      <a href="#0"><img src="assets/images/img5.jpg"></a>
+      
+    </li>
+    
+  </ul>

@@ -1,0 +1,108 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+   <style>
+    .navbar-inverse
+        {
+            margin-bottom: 0;
+            background-color: rgb(192, 76, 76);
+        }
+        .footer {
+   margin:0;
+   padding-left: 0;
+   padding-right: 0;
+   padding-top: 0;
+   margin-top:0%;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height:600px;
+   background-color:black;
+   color: white;
+   text-align: center;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}</style>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" style="height: 100px; background-color:black">
+      <div class="container-fluid">
+          <div class="navbar-header">
+              <a class="navbar-brand"  style="font-weight: 100; "><b><h2>bo<font color="red">A</font>t</h2></b></a>
+          </div>
+          <ul class="nav navbar-nav navbar-right" >
+              
+              <li class="active"><a routerLink="/logo"><h4>Home</h4></a></li>
+              <li><a routerLink="/connect"><h4>Connect</h4></a></li>
+              <li><a routerLink="/gallery"><h4>Gallery</h4></a></li>
+              
+              
+              
+          </ul>
+          
+         
+      </div>
+    </div>
+    
+<div>
+  <router-outlet></router-outlet>
+</div>
+  <div class="footer" style="background-color: rgb(44, 42, 42)">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/accounts/emailsignup" class="fa fa-instagram"></a>
+        <a href="https://www.fa-youtube.com" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <h3 style="color:white">For any Complaints Contact our Coustomer Service :<a>9999999999</a></h3>
+  </div>
+    
+    
+
+
+ 
+  
+
+
+
+</body>
+
+
+

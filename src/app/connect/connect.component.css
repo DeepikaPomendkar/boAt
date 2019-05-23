@@ -1,0 +1,16 @@
+body{
+    background-image: url("src/assets/images/bgg.png");
+}
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+div.transbox {
+margin: 00px;
+background-color: transparent;
+border: 00px solid black;
+opacity: 0.6;
+filter: alpha(opacity=60); /* For IE8 and earlier */
+}
